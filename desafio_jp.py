@@ -75,10 +75,10 @@ def gerar_extrato():
     texto_extrato = "Extrato"
     print(texto_extrato.center(50, "="))
     if not extrato:
-        print(f"\nNão foram realizadas movimentações.\n\n{data()}    Saldo: R$ {saldo:.2f}")
+        print(f"\nNão foram realizadas movimentações.\n\n{data()}    Saldo com Limite: R$ {saldo:.2f}")
     else:
         print(extrato)
-        print(f"{data()}    Saldo: R$ {saldo:.2f}")
+        print(f"{data()}    Saldo com Limite: R$ {saldo:.2f}")
     print("\n==================================================")
 
 
